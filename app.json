@@ -1,9 +1,8 @@
 {
   "expo": {
-
-  "scheme":"ze-delivery-frontend",
+    "scheme": "ze-delivery-frontend",
     "name": "ze-delivery-frontend",
-    "slug": "ze-delivery-frontend",
+    "slug": "ze-delivery-frontend-challenge",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +23,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
-    }
-   
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be80e03e-abe4-44eb-8ad1-3e2bc256013d"
+      }
+    },
+    "owner": "thidiamond"
   }
 }
