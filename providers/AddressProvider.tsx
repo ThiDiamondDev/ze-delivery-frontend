@@ -23,7 +23,7 @@ export const AddressContextProvider = ({ children }: ContextChildrenProps) => {
   const [locations, setLocations] = useState<Location[]>([]);
   const fetchLocations = throttle(async (address) => {
     const apiUrl = process.env.EXPO_PUBLIC_AUTOCOMPLETE_URL || "";
-    const url = apiUrl + `address=${encodeURIComponent(address)}`;
+    const url = apiUrl + encodeURIComponent(address);
     try {
       const response = await fetch(url);
       const data = await response.json();
@@ -35,7 +35,7 @@ export const AddressContextProvider = ({ children }: ContextChildrenProps) => {
 
   const fetchSelectedLocation = async (address: string) => {
     const apiUrl = process.env.EXPO_PUBLIC_SEARCH_URL || "";
-    const url = apiUrl + `address=${encodeURIComponent(address)}`;
+    const url = apiUrl + encodeURIComponent(address);
     try {
       const response = await fetch(url);
 
