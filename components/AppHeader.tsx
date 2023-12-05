@@ -26,8 +26,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     padding: 10,
     backgroundColor: "#eee",
-    height: 80,
-    marginTop: 20,
+    height: 100,
     justifyContent: "center",
     alignContent: "center",
   },
@@ -37,6 +36,7 @@ export const styles = StyleSheet.create({
     marginLeft: 10,
     position: "absolute",
     bottom: 10,
+    marginTop: 20,
   },
 
   backArrow: {
