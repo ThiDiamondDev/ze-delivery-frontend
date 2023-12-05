@@ -79,7 +79,7 @@ export default function SearchLocationPage() {
     <View style={styles.container}>
       <AppHeader title={"Search"} />
       <View style={styles.body}>
-        <Text style={styles.title}>Search</Text>
+        <Text style={styles.title}>Zé Frontend/Mobile</Text>
         <SearchBar value={address} onChangeText={(text) => setAddress(text)} />
         <TouchableOpacity style={styles.searchButton} onPress={onSearch}>
           <Text style={styles.searchButtonText}>Search</Text>
@@ -142,7 +142,7 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
   },
   searchBar: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#f2f2f2",
     borderRadius: 10,
