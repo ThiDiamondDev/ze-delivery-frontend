@@ -14,7 +14,7 @@ This is a React Native app that implements the Zé Delivery frontend challenge u
 
 The app consists of four screens:
 
-- A **SearchLocationPage** where the user can type an address and see location suggestions using the [LocationIQ API]. The app also finds the coordinates of the searched location and passes them to the next screen using the address context provider.
+- A **SearchLocationPage** where the user can type an address and see location suggestions using the [LocationIQ API](https://locationiq.com/). The app also finds the coordinates of the searched location and passes them to the next screen using the address context provider.
 - A **ProductsPage** where the user can see the products available for the selected address, grouped by category. The app uses GraphQL to communicate with the Zé Delivery API and fetch the data for the distributors, products and categories.
 - A **CategoryPage** where the user can see the products of the selected category and add them to the cart. 
 - A **CartPage** where the user can see the products added to the cart and manage them. The app also shows the product details, like image, price and quantity and  functionality to add, remove, and also manage the quantity by product and show the total of products and total to pay.
@@ -39,7 +39,7 @@ You can follow these steps to run the app:
 
 ## Challenge link
 
-You can find the original challenge description and requirements [here](https://github.com/ab-inbev-ze-company/ze-code-challenges/blob/master/backend.md).
+You can find the original challenge description and requirements [here](https://github.com/ab-inbev-ze-company/ze-code-challenges/blob/master/frontend-mobile.md).
 
 ## Screenshots
 
