@@ -29,6 +29,12 @@
         "projectId": "be80e03e-abe4-44eb-8ad1-3e2bc256013d"
       }
     },
-    "owner": "thidiamond"
+    "owner": "thidiamond",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/be80e03e-abe4-44eb-8ad1-3e2bc256013d"
+    }
   }
 }
