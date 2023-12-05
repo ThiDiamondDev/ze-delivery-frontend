@@ -9,6 +9,9 @@ This is a React Native app that implements the Zé Delivery frontend challenge u
   - [How to run the app](#how-to-run-the-app)
   - [Challenge link](#challenge-link)
   - [Screenshots](#screenshots)
+  - [How to run the app using expo go](#how-to-run-the-app-using-expo-go)
+    - [QR code for Android](#qr-code-for-android)
+    - [QR code for iOS](#qr-code-for-ios)
 
 ## About the app
 
@@ -54,3 +57,16 @@ Here are some screenshots of the app:
 <img src="screenshots/CartPageScreenshot.jpeg" width="200" height="400" alt="CartPage">
 
 <img src="screenshots/ProductPanelScreenshot.jpeg" width="200" height="400" alt="AddProductPanel">
+
+## How to run the app using expo go
+If you don't have an emulator or don't want to install the app on your device, you can also run the app using expo go. Expo go is a free app that allows you to scan a QR code and open any expo project on your device. You can follow these steps to run the app using expo go:
+
+- Install expo go on your device from the [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) (for Android) or the [App Store](https://apps.apple.com/us/app/expo-go/id982107779) (for iOS).
+- Open the expo go app and scan the QR code below that corresponds to your device's platform.
+- Wait for the app to load and enjoy!
+
+### QR code for Android
+<img src="shared/android.svg" width="150" height="150" alt="android expo code">
+
+### QR code for iOS
+<img src="shared/ios.svg" width="150" height="150" alt="IOS expo code">
